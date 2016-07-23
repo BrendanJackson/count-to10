@@ -1,0 +1,109 @@
+@keyframes greenPulse {
+    0% {box-shadow:0 0 30px #4bbec8}
+    50% {box-shadow:0 0 80px #c83416    }
+    100% {box-shadow:0 0 30px #4bbec8}
+}
+div#beaker span.glow {
+    width:100%;
+    height:100%;background:#222;
+    position:relative;
+    display:block;
+    border-radius:200px;
+    animation:greenPulse 2s infinite;
+    -webkit-animation:greenPulse 2s infinite;
+    -moz-animation:greenPulse 2s infinite;
+    -o-animation:greenPulse 2s infinite;
+}
+@keyframes bubbleUp {
+    0% {bottom:110px;-webkit-transform:scale(.9);opacity:0}
+    1% {bottom:110px;-webkit-transform:scale(1.2);opacity:.8}
+    20% {bottom:160px;left:75px;-webkit-transform:scale(1.5);opacity:1}
+    22.5% {bottom:172px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
+    25% {bottom:185px;left:50px;-webkit-transform:scale(1.4);opacity:.8}
+    27.5% {bottom:197px;left:37px;-webkit-transform:scale(1.4);opacity:.9}
+    30% {bottom:210px;left:25px;-webkit-transform:scale(1.5);opacity:1}
+    32.5% {bottom:222px;left:37px;-webkit-transform:scale(1.4);opacity:.9}
+    35% {bottom:235px;left:50px;-webkit-transform:scale(1.4);opacity:.8}
+    37.5% {bottom:247px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
+    40% {bottom:260px;left:75px;-webkit-transform:scale(1.5);opacity:1}
+    42.5% {bottom:272px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
+    45% {bottom:285px;left:50px;-webkit-transform:scale(1.4);opacity:.8}
+    47.5% {bottom:292px;left:37px;-webkit-transform:scale(1.4);opacity:.9}
+    50% {bottom:310px;left:25px;-webkit-transform:scale(1.5);opacity:1}
+    52.5% {bottom:322px;left:37px;-webkit-transform:scale(1.4);opacity:.9}
+    55% {bottom:335px;left:50px;-webkit-transform:scale(1.4);opacity:.8}
+    57.5% {bottom:342px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
+    60% {bottom:360px;left:75px;-webkit-transform:scale(1.5);opacity:1}
+    62.5% {bottom:372px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
+    65% {bottom:385px;left:50px;-webkit-transform:scale(1.4);opacity:.8}
+    67.5% {bottom:392px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
+    70% {bottom:410px;left:60px;-webkit-transform:scale(1.5);opacity:1}
+    72.5% {bottom:422px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
+    75% {bottom:435px;left:50px;-webkit-transform:scale(1.4);opacity:.8}
+    77.5% {bottom:442px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
+    80% {bottom:460px;left:75px;-webkit-transform:scale(1.5);opacity:1}
+    82.5% {bottom:472px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
+    85% {bottom:485px;left:50px;-webkit-transform:scale(1.4);opacity:.8}
+    87.5% {bottom:492px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
+    90% {bottom:500px;left:50px;-webkit-transform:scale(1.5);opacity:1}
+    92.5% {bottom:512px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
+    95% {bottom:545px;left:50px;-webkit-transform:scale(1.9);opacity:1}animation:bubbleUp 8s 1 ease-in-out;
+    -webkit-animation:bubbleUp 8s infinite ease-in-out;
+    -o-animation:bubbleUp 8s infinite ease-in-out;
+    -moz-animation:bubbleUp 8s infinite ease-in-out;
+    99% {bottom:550px;-webkit-transform:scale(3);opacity:0}
+    100% {bottom:110px;-webkit-transform:scale(.9);opacity:0}
+}
+div#beaker span.bubbleup {
+/*    background: #4bbec8;*/
+    /*visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;*/
+    width:80px;
+    height:80px;
+    position:absolute;
+    display:block;
+    left:110px;
+    bottom:110px;
+    border-radius:100px;
+    animation:bubbleUp 10s 1 ease-in-out;
+    -webkit-animation:bubbleUp 10s 1 ease-in-out;
+    -o-animation:bubbleUp 10s 1 ease-in-out;
+    -moz-animation:bubbleUp 10s 1 ease-in-out;
+   /* background:-moz-radial-gradient(center 45deg, circle closest-corner, rgba(75,190,200,0), rgba(75,190,200,.1), rgba(75,190,200,.3), rgba(255,255,255,.7));
+    background:-webkit-gradient(radial, center center, 0, center center, 100, from(rgba(0, 65, 65, 0.44)), to(rgba(126, 112, 128, 0.7)));
+    background:gradient(center 45deg, circle closest-corner, rgba(75,190,200,0), rgba(75,190,200,.1), rgba(75,190,200,.3), rgba(255,255,255,.7));
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0) 0%, rgba(9,133,167,0.1) 51%, rgba(9,133,167,0.3) 71%, rgba(9,133,167,.7) 100%);
+*/
+}
+
+.bubble{
+    animation:bubbleUp 10s 1 ease-in-out;
+    -webkit-animation:bubbleUp 10s 1 ease-in-out;
+    -o-animation:bubbleUp 10s 1 ease-in-out;
+    -moz-animation:bubbleUp 10s 1 ease-in-out;
+    background:-moz-radial-gradient(center 45deg, circle closest-corner, rgba(75,190,200,0), rgba(75,190,200,.1), rgba(75,190,200,.3), rgba(255,255,255,.7));
+    background:-webkit-gradient(radial, center center, 0, center center, 100, from(rgba(0, 65, 65, 0.44)), to(rgba(255, 19, 21, 0.7)));
+    background:gradient(center 45deg, circle closest-corner, rgba(75,190,200,0), rgba(75,190,200,.1), rgba(75,190,200,.3), rgba(255,255,255,.7));
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0) 0%, rgba(9,133,167,0.1) 51%, rgba(9,133,167,0.3) 71%, rgba(9,133,167,.7) 100%);
+
+}
+
+body{background-color: #222222;}
+
+.pop{
+    background: #FF1315;
+    animation:bubbleUp 10s infinite ease-in-out;
+    -webkit-animation:bubbleUp 10s infinite ease-in-out;
+    -o-animation:bubbleUp 10s infinite ease-in-out;
+    -moz-animation:bubbleUp 10s infinite ease-in-out;
+    background:-moz-radial-gradient(center 45deg, circle closest-corner, rgba(255, 19, 21, 0.67), rgba(255, 19, 21, 0.1), rgba(255, 19, 21, 0.56), rgba(255, 19, 21, 0.7));
+    background:-webkit-gradient(radial, center center, 0, center center, 100, from(rgba(255, 31, 31, 0.62)), to(rgba(255, 19, 21, 0.7)));
+    background:gradient(center 45deg, circle closest-corner, rgba(255, 19, 21, 0.24), rgba(255, 19, 21, 0.1), rgba(255, 19, 21, 0.3), rgba(255, 19, 21, 0.7));
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255, 19, 21, 0.44) 0%, rgba(255, 19, 21, 0.49) 51%, rgba(255, 19, 21, 0.3) 71%, rgba(255, 19, 21, 0.7) 100%);
+
+}
+
+.number{
+    display: none;
+}
