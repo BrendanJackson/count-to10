@@ -1,3 +1,18 @@
+.top{
+    height: 600px;
+}
+
+.box{
+    width:100px;
+    height:100px;
+/*  display:block;*/
+    position: fixed;
+    left:75px;
+    bottom:15px;
+    background-color: chocolate;
+    z-index: 1;
+}
+
 @keyframes greenPulse {
     0% {box-shadow:0 0 30px #4bbec8}
     50% {box-shadow:0 0 80px #c83416    }
@@ -15,39 +30,43 @@ div#beaker span.glow {
     -o-animation:greenPulse 2s infinite;
 }
 @keyframes bubbleUp {
-    0% {bottom:110px;-webkit-transform:scale(.9);opacity:0}
-    1% {bottom:110px;-webkit-transform:scale(1.2);opacity:.8}
-    20% {bottom:160px;left:75px;-webkit-transform:scale(1.5);opacity:1}
-    22.5% {bottom:172px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
-    25% {bottom:185px;left:50px;-webkit-transform:scale(1.4);opacity:.8}
-    27.5% {bottom:197px;left:37px;-webkit-transform:scale(1.4);opacity:.9}
-    30% {bottom:210px;left:25px;-webkit-transform:scale(1.5);opacity:1}
-    32.5% {bottom:222px;left:37px;-webkit-transform:scale(1.4);opacity:.9}
-    35% {bottom:235px;left:50px;-webkit-transform:scale(1.4);opacity:.8}
-    37.5% {bottom:247px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
-    40% {bottom:260px;left:75px;-webkit-transform:scale(1.5);opacity:1}
-    42.5% {bottom:272px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
-    45% {bottom:285px;left:50px;-webkit-transform:scale(1.4);opacity:.8}
-    47.5% {bottom:292px;left:37px;-webkit-transform:scale(1.4);opacity:.9}
-    50% {bottom:310px;left:25px;-webkit-transform:scale(1.5);opacity:1}
-    52.5% {bottom:322px;left:37px;-webkit-transform:scale(1.4);opacity:.9}
-    55% {bottom:335px;left:50px;-webkit-transform:scale(1.4);opacity:.8}
-    57.5% {bottom:342px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
-    60% {bottom:360px;left:75px;-webkit-transform:scale(1.5);opacity:1}
-    62.5% {bottom:372px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
-    65% {bottom:385px;left:50px;-webkit-transform:scale(1.4);opacity:.8}
-    67.5% {bottom:392px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
-    70% {bottom:410px;left:60px;-webkit-transform:scale(1.5);opacity:1}
-    72.5% {bottom:422px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
-    75% {bottom:435px;left:50px;-webkit-transform:scale(1.4);opacity:.8}
-    77.5% {bottom:442px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
-    80% {bottom:460px;left:75px;-webkit-transform:scale(1.5);opacity:1}
-    82.5% {bottom:472px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
-    85% {bottom:485px;left:50px;-webkit-transform:scale(1.4);opacity:.8}
-    87.5% {bottom:492px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
-    90% {bottom:500px;left:50px;-webkit-transform:scale(1.5);opacity:1}
-    92.5% {bottom:512px;left:63px;-webkit-transform:scale(1.4);opacity:.9}
-    95% {bottom:545px;left:50px;-webkit-transform:scale(1.9);opacity:1}animation:bubbleUp 8s 1 ease-in-out;
+    0% {bottom:0px;left:50px;-webkit-transform:scale(0);opacity:0}
+    1% {bottom:10px;left:37px;-webkit-transform:scale(0.5);opacity:.8}
+    4% {bottom:30px;left:25px;-webkit-transform:scale(0.7);opacity:.8}
+    8% {bottom:50px;left:37px;-webkit-transform:scale(0.9);opacity:.8}
+    12% {bottom:80px;left:50px;-webkit-transform:scale(1.0);opacity:.8}
+    16% {bottom:110px;left:63px;-webkit-transform:scale(1.1);opacity:.8}
+    20% {bottom:160px;left:75px;-webkit-transform:scale(1.0);opacity:1}
+    22.5% {bottom:172px;left:63px;-webkit-transform:scale(0.9);opacity:.9}
+    25% {bottom:185px;left:50px;-webkit-transform:scale(1.0);opacity:.8}
+    27.5% {bottom:197px;left:37px;-webkit-transform:scale(1.1);opacity:.9}
+    30% {bottom:210px;left:25px;-webkit-transform:scale(1.0);opacity:1}
+    32.5% {bottom:222px;left:37px;-webkit-transform:scale(0.9);opacity:.9}
+    35% {bottom:235px;left:50px;-webkit-transform:scale(1.0);opacity:.8}
+    37.5% {bottom:247px;left:63px;-webkit-transform:scale(1.1);opacity:.9}
+    40% {bottom:260px;left:75px;-webkit-transform:scale(1.0);opacity:1}
+    42.5% {bottom:272px;left:63px;-webkit-transform:scale(0.9);opacity:.9}
+    45% {bottom:285px;left:50px;-webkit-transform:scale(1.0);opacity:.8}
+    47.5% {bottom:292px;left:37px;-webkit-transform:scale(1.1);opacity:.9}
+    50% {bottom:310px;left:25px;-webkit-transform:scale(1.0);opacity:1}
+    52.5% {bottom:322px;left:37px;-webkit-transform:scale(0.9);opacity:.9}
+    55% {bottom:335px;left:50px;-webkit-transform:scale(1.0);opacity:.8}
+    57.5% {bottom:342px;left:63px;-webkit-transform:scale(1.1);opacity:.9}
+    60% {bottom:360px;left:75px;-webkit-transform:scale(1.0);opacity:1}
+    62.5% {bottom:372px;left:63px;-webkit-transform:scale(0.9);opacity:.9}
+    65% {bottom:385px;left:50px;-webkit-transform:scale(1.0);opacity:.8}
+    67.5% {bottom:392px;left:63px;-webkit-transform:scale(1.1);opacity:.9}
+    70% {bottom:410px;left:60px;-webkit-transform:scale(1.0);opacity:1}
+    72.5% {bottom:422px;left:63px;-webkit-transform:scale(0.9);opacity:.9}
+    75% {bottom:435px;left:50px;-webkit-transform:scale(1.0);opacity:.8}
+    77.5% {bottom:442px;left:63px;-webkit-transform:scale(1.1);opacity:.9}
+    80% {bottom:460px;left:75px;-webkit-transform:scale(1.0);opacity:1}
+    82.5% {bottom:472px;left:63px;-webkit-transform:scale(0.9);opacity:.9}
+    85% {bottom:485px;left:50px;-webkit-transform:scale(1.0);opacity:.8}
+    87.5% {bottom:492px;left:63px;-webkit-transform:scale(1.1);opacity:.9}
+    90% {bottom:500px;left:50px;-webkit-transform:scale(1.0);opacity:1}
+    92.5% {bottom:512px;left:63px;-webkit-transform:scale(0.9);opacity:.9}
+    95% {bottom:545px;left:50px;-webkit-transform:scale(1.0);opacity:1}animation:bubbleUp 10s 1 ease-in-out;
     -webkit-animation:bubbleUp 8s infinite ease-in-out;
     -o-animation:bubbleUp 8s infinite ease-in-out;
     -moz-animation:bubbleUp 8s infinite ease-in-out;
@@ -62,9 +81,9 @@ div#beaker span.bubbleup {
     width:80px;
     height:80px;
     position:absolute;
-    display:block;
-    left:110px;
-    bottom:110px;
+   /* display:block;*/
+    left:50px;
+    bottom:-10px;
     border-radius:100px;
     animation:bubbleUp 10s 1 ease-in-out;
     -webkit-animation:bubbleUp 10s 1 ease-in-out;
@@ -89,8 +108,8 @@ div#beaker span.bubbleup {
 
 }
 
-body{background-color: #222222;}
-
+/*body{background-color: #222222;}
+*/
 .pop{
     background: #FF1315;
     animation:bubbleUp 10s infinite ease-in-out;
@@ -104,6 +123,6 @@ body{background-color: #222222;}
 
 }
 
-.number{
+.bubble-number{
     display: none;
 }

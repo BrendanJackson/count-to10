@@ -5,7 +5,7 @@ $(document).ready(function(){
 
     $('.bubbleup').on('click', function(){
         $(this).toggleClass('bubble pop');
-        $('.number').css('display','block');
+        $('.bubble-number').css('display','block');
     });
 
 
